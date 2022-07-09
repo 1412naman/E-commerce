@@ -1,0 +1,121 @@
+body{
+    background-color: #fdfdfd;
+}
+p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 15px;
+    
+    
+  }
+  hr{
+    border-top: 1px solid;
+    width: 100%;
+    
+  }
+.bmargin{
+    margin-bottom: 20px;
+}
+/* Navbar */
+.navbar{
+    padding: 0 0 0 0 !important;
+    }
+    
+.navbar-fixed-top.scrolled {
+      background-color: #fff !important;
+      transition: background-color 200ms linear;
+    }
+    
+.navbar-fixed-top.scrolled .nav-link {
+      color:#fff;
+    }
+.navbar-brand{
+    font-size: 2.3rem;
+    font-weight: bold;
+    padding-left: 15px;
+    font-family: 'Dancing Script', cursive;
+    color: #021341 !important;
+    }
+    .nav-item{
+        margin-left: 15px;
+        font-weight: 500;
+      }
+      .nav-link{
+        color: rgb(0, 0, 0) !important;
+      }
+.navbar-collapse{
+    padding-left: 15px;
+    }
+.navbar-toggler{
+    margin-right: 15px ;
+    border: 0px;
+    }
+    .shadow{
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px !important;
+      }
+/* REVIEW CART */
+#reviewcart{
+    padding: 2% 15%;
+}
+/* DELIVERY */
+#delivery{
+    padding: 1% 15%;
+    margin-top: 55px;
+}
+.formstyle{
+    width: 15em; 
+    height: 50px;
+    margin-bottom: 35px;
+    
+}
+.addresstext{
+    width: 15em;  height: 120px;
+    margin-bottom: 25px;
+}
+
+
+.button-31 {
+  background-color: #000;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.button-31:hover,
+.button-31:focus {
+  opacity: .75;
+}
+@media  (max-width: 420px){
+    #delivery{
+        padding: 1% 5%;
+    }
+    .formstyle, .addresstext{
+        width: 100%;
+    }
+}
+    
+
+

@@ -1,0 +1,90 @@
+/* Navbar */
+body{
+  background-color: #E4E9F7 !important;
+  }
+.navbar{
+    padding: 0 0 0 0 !important;
+    }
+    
+.navbar-fixed-top.scrolled {
+      background-color: #fff !important;
+      transition: background-color 200ms linear;
+    }
+    .nav-item{
+      margin-left: 15px;
+      font-weight: 500;
+    }
+    .nav-link{
+      color: rgb(0, 0, 0) !important;
+    }
+.navbar-fixed-top.scrolled .nav-link {
+      color:#fff;
+    }
+.navbar-brand{
+    font-size: 2.3rem;
+    font-weight: bold;
+    padding-left: 15px;
+    font-family: 'Dancing Script', cursive;
+    color: #021341 !important;
+    }
+.navbar-collapse{
+    padding-left: 15px;
+    }
+.navbar-toggler{
+    margin-right: 15px ;
+    border: 0px;
+    }
+    .shadow{
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px !important;
+      }
+/* REVIEW */
+#review{
+    padding: 2% 15%;
+}
+.button-66 {
+    background-color: #141c27;
+    border-radius: 4px;
+    border: 0;
+    box-shadow: rgba(1,60,136,.5) 0 -1px 3px 0 inset,rgba(0,44,97,.1) 0 3px 6px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inherit;
+    font-family: "Space Grotesk",-apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+    height: 56px;
+    width: 100%;
+    padding: 16px 20px;
+    position: relative;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    transition: all .2s cubic-bezier(.22, .61, .36, 1);
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .button-66:hover {
+    background-color: #13233a;
+    transform: translateY(-2px);
+  }
+  @media (min-width: 768px) {
+    .button-66 {
+      padding: 16px 44px;
+      min-width: 95%;
+    }
+  }
+.col-12{
+      padding-left: 8px !important;
+      padding-right: 8px !important;
+  }
+  @media  (max-width: 420px){
+      #review{
+          padding: 2% 5%;
+      }
+  }

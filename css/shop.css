@@ -1,0 +1,129 @@
+body{
+  background-color: #E4E9F7 !important;
+  }
+p{
+  font-family: 'Roboto Slab', serif;
+  
+}
+a{
+  text-decoration: none !important;
+}
+hr{
+    border-top: 1px solid;
+    width: 150px;
+  }
+/* Navbar */
+.navbar{
+    padding: 0 0 0 0 !important;
+    }
+    
+.navbar-fixed-top.scrolled {
+      background-color: #fff !important;
+      transition: background-color 200ms linear;
+    }
+    
+.navbar-fixed-top.scrolled .nav-link {
+      color:#fff;
+    }
+.navbar-brand{
+    font-size: 2.3rem;
+    font-weight: bold;
+    padding-left: 15px;
+    font-family: 'Koulen', cursive;
+    
+    }
+.navbar-collapse{
+    padding-left: 15px;
+    }
+.navbar-toggler{
+    margin-right: 15px ;
+    border: 0px;
+    }
+    .shadow{
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px !important;
+    }
+    
+    .nav-item{
+      margin-left: 15px;
+      font-weight: 500;
+     
+      
+    }
+    .nav-link{
+      color: rgb(0, 0, 0) !important;
+    }
+
+/* Offer Zone */
+#offer{
+  margin-top: 75px;
+  padding: 0 19%;
+  text-align: center;
+  margin-bottom: 30px;
+    
+}
+  @media all and (max-width: 960px){
+    #offer{
+        margin-top: 50px;
+        padding: 0 1%;
+      }
+      #products{
+        padding: 3% 2% !important;
+        font-size: 15px;
+      }
+  }
+
+  /* Products */
+#products{
+  
+  padding: 3% 17%;
+  font-size: 20px;
+}
+#products img{
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#products p{
+  margin-bottom: 0;
+  color: #0f1d3d;
+}
+
+#products .col-12, .col-lg-4, .col-md-6{
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 7%;
+}
+.price{
+  color: #112D4E;
+  font-weight: 300;
+}
+#products h2{
+  text-align: center; 
+  color: #0f1d3d;
+  font-family: 'Merriweather', serif !important;
+   font-weight: bold; 
+   font-size: 35px;
+}
+
+/* FOOTER */
+#footer{
+  padding-left: 17%;
+  padding-right: 17%;
+  padding-top: 2%;
+  padding-bottom: 5px;
+  background-image:  url("https://images.unsplash.com/photo-1551651056-2cb4d5c104be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8b2lsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed ;
+}
+.contactinfo{
+text-align: right;
+}
+@media all and (max-width: 768px){
+ .contactinfo{
+   text-align: left;
+ }
+}

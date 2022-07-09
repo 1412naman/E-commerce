@@ -1,0 +1,99 @@
+body{
+  background-color: #E4E9F7 !important;
+  }
+.navbar{
+    padding: 0 0 0 0 !important;
+    }
+    
+.navbar-fixed-top.scrolled {
+      background-color: #fff !important;
+      transition: background-color 200ms linear;
+    }
+    
+.navbar-fixed-top.scrolled .nav-link {
+      color:#fff;
+    }
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 15px;
+    font-family: 'Dancing Script', cursive;
+    color: #021341 !important;
+    }
+.navbar-collapse{
+    padding-left: 15px;
+    }
+.navbar-toggler{
+    margin-right: 15px ;
+    border: 0px;
+    }
+    .shadow{
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px !important;
+      }
+
+      .btnfos {
+        color: #fff;
+        cursor: pointer;
+        display: block;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 45px;
+        max-width: 285px;
+        margin: 0 auto 2em;
+        position: relative;
+        text-transform: uppercase;
+       
+        width: 100%;
+      }
+.btnfos-4 {
+  border: 1px solid;
+  overflow: hidden;
+  position: relative;
+}
+.btnfos-4 span {
+  z-index: 20;
+}
+.btnfos-4:after {
+  background: rgb(213, 217, 255);
+  content: "";
+  height: 155px;
+  left: -75px;
+  opacity: .2;
+  position: absolute;
+  top: -50px;
+  width: 50px;
+  -webkit-transition: all 1500ms cubic-bezier(0.19, 1, 0.22, 1);
+          transition: all 1500ms cubic-bezier(0.19, 1, 0.22, 1);
+  -webkit-transform: rotate(35deg);
+      -ms-transform: rotate(35deg);
+          transform: rotate(35deg);
+  z-index: -10;
+}
+
+.btnfos-4:hover:after {
+  left: 120%;
+  -webkit-transition: all 1500ms cubic-bezier(0.19, 1, 0.22, 1);
+          transition: all 1500ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+/* FOOTER */
+#footer{
+    padding-left: 17%;
+    padding-right: 17%;
+    padding-top: 2%;
+    padding-bottom: 5px;
+    background-image:  url("https://images.unsplash.com/photo-1551651056-2cb4d5c104be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8b2lsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+  }
+  .contactinfo{
+  text-align: right;
+  }
+  @media all and (max-width: 768px){
+   .contactinfo{
+     text-align: left;
+   }
+   #foooter{
+    padding-left: 2% !important;
+  }
+  }
